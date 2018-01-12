@@ -1,0 +1,23 @@
+{
+  "name": "skill-library-virtual-assistant",
+  "version": "1.0.0",
+  "description": "Library Virtual Assistant for a public university",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "trivia"
+  ],
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.9",
+    "emailjs": "^1.0.8",
+    "https": "^1.0.0",
+    "nodemailer": "^3.1.8",
+    "querystring": "^0.2.0"
+  }
+}

@@ -1,0 +1,43 @@
+AMAZON.StartOverIntent Hello Library Assistant
+AMAZON.StartOverIntent Good Morning Library Assistant
+AMAZON.StartOverIntent Hey Library Assistant
+AMAZON.StartOverIntent start search
+AMAZON.StartOverIntent Can I ask a question
+IdentifyIntent My IUPUI ID is {iupuiID}
+IdentifyIntent It is {iupuiID}
+IdentifyIntent my ID is {iupuiID}
+LibraryHoursIntent What are the library hours
+LibraryHoursIntent What are the library hours for {date}
+LibraryHoursIntent Library hours for {date}
+LibraryHoursIntent When does the library close
+LibraryHoursIntent When does the library close {date}
+LibraryHoursIntent When does the library open
+LibraryHoursIntent When does the library open {date}
+LibraryHoursSemesterIntent What are the library hours for {semester} semester
+LibraryHoursSemesterIntent What are the library hours for {semester}
+LibraryHoursSemesterIntent library hours for {semester} semester
+LibraryHoursSemesterIntent library hours for {semester}
+LibraryHoursSemesterIntent When does the library open in {semester} semester
+FindABookIntent find a book
+FindABookIntent find me a book
+FindABookIntent search book
+FindABookIntent help me find a book
+FindABookByNameIntent Find the book named {bookName}
+FindABookByNameIntent the book name is {bookName}
+FindABookByNameIntent book name is {bookName}
+FindABookByNameIntent Help me find the book {bookName}
+FindABookByNameIntent Help me find the book {bookName}
+FindABookByNameIntent {bookName}
+FindABookByNameAuthorIntent Help me find the book {bookName} by {author}
+FindABookByNameAuthorIntent Help me find the book {bookName} written by {author}
+FindABookByNameAuthorIntent Help me find the book {bookName} author {author}
+FindABookByNameAuthorIntent Find the book {bookName} by {author}
+FindABookByAuthorIntent The author is {author}
+FindABookByAuthorIntent The author of the book is {author}
+FindABookByAuthorIntent Author of the book is {author}
+FindABookByAuthorIntent Author is {author}
+FindABookByAuthorIntent Author name is {author}
+AMAZON.YesIntent Yes
+AMAZON.YesIntent Correct
+AMAZON.YesIntent Yes thats correct
+AMAZON.NoIntent No

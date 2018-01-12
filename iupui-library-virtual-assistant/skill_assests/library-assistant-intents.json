@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "iupuiID",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "IdentifyIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        }
+      ],
+      "intent": "LibraryHoursIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "semester",
+          "type": "SEMESTER"
+        }
+      ],
+      "intent": "LibraryHoursSemesterIntent"
+    },
+    {
+      "intent": "FindABookIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "bookName",
+          "type": "AMAZON.Book"
+        }
+      ],
+      "intent": "FindABookByNameIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "author",
+          "type": "AMAZON.Person"
+        }
+      ],
+      "intent": "FindABookByAuthorIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "bookName",
+          "type": "AMAZON.Book"
+        },
+        {
+          "name": "author",
+          "type": "AMAZON.Person"
+        }
+      ],
+      "intent": "FindABookByNameAuthorIntent"
+    }
+  ]
+}
